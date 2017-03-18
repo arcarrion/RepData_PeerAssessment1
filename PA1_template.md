@@ -193,12 +193,14 @@ hist(x = total_steps_day$steps,
      breaks=c(0, seq(2500,25000, 2500)),
       main = "Total number of steps per day", 
       xlab = "Total number of steps", 
-      ylab = "Frequency")
+      ylab = "Frequency",
+     ylim = c(0, 30))
 hist(x = total_steps_day_filled_data$steps,
      breaks=c(0, seq(2500,25000, 2500)),
       main = "Total number of steps per day (filled data)", 
       xlab = "Total number of steps", 
-      ylab = "Frequency")
+      ylab = "Frequency",
+     ylim = c(0, 30))
 ```
 
 ![](PA1_template_files/figure-html/histograms_comparison-1.png)<!-- -->
